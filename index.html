@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ClimaJunín » Estación Meteorológica en el Noroeste de Buenos Aires</title>
     
-    <meta name="description" content="Estación Meteorológica Automática en Junín, Buenos Aires, Argentina. Datos, radares y satélites en tiempo real.">
-    <meta name="keywords" content="clima junin, tiempo junin, estacion meteorologica junin, radar pergamino, satelite junin, lluvia junin">
+    <meta name="description" content="Estación Meteorológica Automática en Junín, Buenos Aires, Argentina. Datos de JUNIN AERO (SMN), radares y satélites en tiempo real.">
+    <meta name="keywords" content="clima junin, tiempo junin, estacion meteorologica junin, radar pergamino, satelite junin, lluvia junin, smn">
     <meta name="theme-color" content="#54b4eb">
 
     <!-- Estilos Framework y Fuentes -->
@@ -143,7 +143,7 @@
             color: #718096;
         }
 
-        /* Multimedia con las Fotos Propias de Junín */
+        /* Contenedores Multimedia con tus Fotos de Junín */
         .media-container {
             position: relative;
             height: 220px;
@@ -158,15 +158,15 @@
             transform: scale(1.01);
         }
         
-        /* Asignación directa de tus imágenes subidas */
+        /* Enlaces exactos a los nombres de tus archivos subidos */
         .bg-radar-junin {
-            background-image: url('images (3).jpg'); /* Foto urbana / atardecer */
-        }
-        .bg-laguna-junin {
-            background-image: url('images (1).jpg'); /* Cartel JUNIN en la laguna */
+            background-image: url('images (3).jpg');
         }
         .bg-satelite-rammb {
-            background-image: url('images (2).jpg'); /* Muelle / atardecer con parapente */
+            background-image: url('images (2).jpg');
+        }
+        .bg-laguna-junin {
+            background-image: url('images (1).jpg');
         }
 
         .media-overlay {
@@ -255,10 +255,10 @@
     <!-- Contenido Principal -->
     <div class="container">
         
-        <!-- Notificación de Fuentes -->
+        <!-- Notificación Oficial SMN / WU -->
         <div class="alert alert-info alert-dismissible" role="alert" style="border-left: 4px solid var(--brand-color); background: #fff; color: #2d3748;">
             <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
-            <i class="fa fa-info-circle" style="color: var(--brand-color);"></i> <strong>Estación Automática:</strong> Datos en tiempo real de <strong>JUNIN AERO (SMN)</strong> y estaciones particulares de <strong>Weather Underground</strong>.
+            <i class="fa fa-info-circle" style="color: var(--brand-color);"></i> <strong>Estación Automática:</strong> Datos en tiempo real sincronizados desde <strong>JUNIN AERO (SMN)</strong> y estaciones automáticas de <strong>Weather Underground</strong>.
         </div>
 
         <div class="row">
@@ -281,7 +281,7 @@
                                 </p>
                                 
                                 <p class="h4" style="color: #2d3748; font-weight: 700;">Miércoles 14 de Octubre de 2026</p>
-                                <p class="h3" style="color: var(--brand-dark); font-weight: 700; margin-top: 5px;">11:55 HS</p>
+                                <p class="h3" style="color: var(--brand-dark); font-weight: 700; margin-top: 5px;">13:30 HS</p>
                             </div>
 
                             <!-- Variables Meteorológicas Detalladas -->
@@ -318,7 +318,7 @@
                         </div>
                     </div>
 
-                    <!-- Pronóstico Extendido (Basado en modelos meteorológicos regionales y SMN) -->
+                    <!-- Pronóstico Extendido (Fuente oficial SMN / Modelos Regionales) -->
                     <div class="forecast-grid">
                         <div class="container-fluid">
                             <div class="row">
@@ -354,7 +354,7 @@
             </div>
         </div>
 
-        <!-- Fila de Tarjetas con las Fotos de Junín como Fondos y Enlaces a Satélites / Radares -->
+        <!-- Fila de Tarjetas con tus Fotos de Junín como Fondos y Accesos Directos a Radares / Satélites -->
         <div class="row">
             <!-- Radar SMN -->
             <div class="col-xs-12 col-md-4">
@@ -373,16 +373,16 @@
                 </div>
             </div>
 
-            <!-- Imagen Satelital RAMMB / CIRA -->
+            <!-- Imagen Satelital RAMMB / CIRA Slider -->
             <div class="col-xs-12 col-md-4">
                 <div class="panel panel-weather">
-                    <div class="panel-heading"><i class="fa fa-globe"></i> Satélite RAMMB / CIRA</div>
+                    <div class="panel-heading"><i class="fa fa-globe"></i> Satélite RAMMB / CIRA Slider</div>
                     <div class="panel-body" style="padding: 10px;">
-                        <a href="https://rammb.cira.colostate.edu/ramsdis/online/s_america.asp" target="_blank" style="text-decoration: none;">
+                        <a href="https://rammb-slider.cira.colostate.edu/" target="_blank" style="text-decoration: none;">
                             <div class="media-container bg-satelite-rammb">
                                 <div class="media-overlay">
                                     <strong>Visor Satelital RAMMB Slider</strong>
-                                    <p style="margin: 0; font-size: 0.85em; opacity: 0.9;">Imágenes de alta resolución de Sudamérica</p>
+                                    <p style="margin: 0; font-size: 0.85em; opacity: 0.9;">Imágenes GOES de alta resolución</p>
                                 </div>
                             </div>
                         </a>
